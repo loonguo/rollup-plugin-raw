@@ -31,7 +31,8 @@ export default function raw (options: RollupRawOptions): Plugin {
                 const filePath = resolve(process.cwd(), id);
                 const fileContent = readFileSync(filePath, 'utf-8');
                 return {
-                    code: `export default ${JSON.stringify(fileContent)};`
+                    code: `export default ${JSON.stringify(fileContent)};`,
+                    map: { mappings: '' }
                 }
             }
         }

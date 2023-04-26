@@ -1,6 +1,6 @@
 {
   "name": "@loonguo/rollup-plugin-raw",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Importing asset as string",
   "type": "module",
   "main": "./dist/cjs/index.js",

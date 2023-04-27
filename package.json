@@ -1,7 +1,7 @@
 {
   "name": "@loonguo/rollup-plugin-raw",
-  "version": "0.0.4",
-  "description": "Importing asset as string",
+  "version": "0.0.5",
+  "description": "Importing text file as string",
   "type": "module",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.js",
@@ -20,7 +20,15 @@
   },
   "keywords": [],
   "author": "loonguo@foxmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loonguo/rollup-plugin-raw"
+  },
+  "bugs": "https://github.com/loonguo/rollup-plugin-raw/issues",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@rollup/pluginutils": "^5.0.2"
   },
